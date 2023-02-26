@@ -6,7 +6,8 @@
 access_key = "<AWS_ACCESS_KEY>"
 secret_key = "<AWS_SECRET_KEY>"
 ```
+2. Run `terraform init`
 
-2. Run `terraform plan`
+3. Run `terraform plan`
 
-3. Run `terraform apply`
+4. Run `terraform apply`

@@ -30,6 +30,11 @@ variable "ami_id_ubuntu" {
         default = "ami-00842a994f5018db8"
 }
 
+variable "ami_id_ubuntu_2004" {
+        description = "The AMI to use"
+        default = "ami-09e2c09f31b90da99"
+}
+
 variable "number_of_instances" {
         description = "number of instances to be created"
         default = 1
